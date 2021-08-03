@@ -1,0 +1,11 @@
+syntax = "proto3";
+option go_package = "/;proto";
+package Transfer;
+
+
+message User {
+        int64 id = 1;
+        string name = 2;
+        string lastname =3;
+        string City =4;
+}
